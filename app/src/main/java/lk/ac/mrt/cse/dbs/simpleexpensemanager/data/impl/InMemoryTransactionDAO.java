@@ -12,7 +12,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- */
+ *//*
+
 
 package lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl;
 
@@ -24,10 +25,12 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.TransactionDAO;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction;
 
+*/
 /**
  * This is an In-Memory implementation of TransactionDAO interface. This is not a persistent storage. All the
  * transaction logs are stored in a LinkedList in memory.
- */
+ *//*
+
 public class InMemoryTransactionDAO implements TransactionDAO {
     private final List<Transaction> transactions;
 
@@ -57,3 +60,4 @@ public class InMemoryTransactionDAO implements TransactionDAO {
     }
 
 }
+*/

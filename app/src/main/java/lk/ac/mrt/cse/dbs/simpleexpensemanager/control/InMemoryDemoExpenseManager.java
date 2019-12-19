@@ -12,7 +12,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- */
+ *//*
+
 
 package lk.ac.mrt.cse.dbs.simpleexpensemanager.control;
 
@@ -22,9 +23,11 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl.InMemoryAccountDAO;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl.InMemoryTransactionDAO;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
 
+*/
 /**
  *
- */
+ *//*
+
 public class InMemoryDemoExpenseManager extends ExpenseManager {
 
     public InMemoryDemoExpenseManager() {
@@ -33,7 +36,9 @@ public class InMemoryDemoExpenseManager extends ExpenseManager {
 
     @Override
     public void setup() {
-        /*** Begin generating dummy data for In-Memory implementation ***/
+        */
+/*** Begin generating dummy data for In-Memory implementation ***//*
+
 
         TransactionDAO inMemoryTransactionDAO = new InMemoryTransactionDAO();
         setTransactionsDAO(inMemoryTransactionDAO);
@@ -49,6 +54,9 @@ public class InMemoryDemoExpenseManager extends ExpenseManager {
         getAccountsDAO().addAccount(dummyAcct2);
         getAccountsDAO().addAccount(dummyAcct3);
 
-        /*** End ***/
+        */
+/*** End ***//*
+
     }
 }
+*/

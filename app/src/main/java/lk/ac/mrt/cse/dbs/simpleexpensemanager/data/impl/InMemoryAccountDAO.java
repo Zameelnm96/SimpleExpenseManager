@@ -12,7 +12,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- */
+ *//*
+
 
 package lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl;
 
@@ -26,10 +27,12 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.exception.InvalidAccountExcep
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
 
+*/
 /**
  * This is an In-Memory implementation of the AccountDAO interface. This is not a persistent storage. A HashMap is
  * used to store the account details temporarily in the memory.
- */
+ *//*
+
 public class InMemoryAccountDAO implements AccountDAO {
     private final Map<String, Account> accounts;
 
@@ -89,3 +92,4 @@ public class InMemoryAccountDAO implements AccountDAO {
         accounts.put(accountNo, account);
     }
 }
+*/
